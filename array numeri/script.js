@@ -13,7 +13,7 @@
  // chiedo all'untente di inserire 5 numeri
 
  for (let i=0; i<5; i++){
-    let newN = askN();
+    const newN = prompt("Dimmi un numero");
     if(!numbers.includes (newN)){
         numbers.push(newN);
     } else {
