@@ -6,14 +6,12 @@
 // creo una arrey vuoto
  const numbers = [];
 
- // chiedo all'utente di inserire un numero
-
-// let askN = [];
-
  // chiedo all'untente di inserire 5 numeri
 
  for (let i=0; i<5; i++){
-    const newN = prompt("Dimmi un numero");
+   const newN = prompt("Dimmi un numero");
+
+
     if(!numbers.includes (newN)){
         numbers.push(newN);
     } else {
