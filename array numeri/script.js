@@ -6,6 +6,7 @@
 // creo una arrey vuoto
  const numbers = [];
 
+
  // chiedo all'untente di inserire 5 numeri
 
  for (let i=0; i<5; i++){
